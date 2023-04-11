@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: white;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #010303;
+}
+
+/* Structure */
+
+.home {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.home h1 {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: rgb(253, 253, 252);
+    font-weight: bolder;
+}
+
+.content {
+    margin-top: 120px;
+    position: relative;
+    z-index: 2;
+}
+
+/* navbar */
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.navlink {
+    font-size: 1.1em !important;
+}
+
+/* Subscrbe Button */
+
+.box {
+    height: 40px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.box i {
+    background-color: rgb(71, 71, 71);
+    width: 40px;
+    line-height: 40px;
+}
+
+button {
+    background-color: rgb(71, 71, 71);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.tbox {
+    border: none;
+    outline: none;
+    width: 0px;
+    transition: 0.6s;
+
+}
+
+.box:hover>.tbox,
+.tbox:focus {
+    width: 260px;
+    padding: 0 10px;
+}
+
+/* side */
+
+h1 {
+    font-family: 'Germania One', cursive;
+    font-size: 38px;
+}
+
+p {
+    padding: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+#services li{
+    text-align: start;
+}
