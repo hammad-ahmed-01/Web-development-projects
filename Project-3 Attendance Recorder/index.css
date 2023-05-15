@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* index.php */
+
+.login-page {
+    background: #f1f1f1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 1;
+    height: 100vh;
+    position: relative;
+}
+
+.caption-col {
+    background: url("login_page.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.caption {
+    color: #fff;
+    text-transform: uppercase;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.caption span {
+    padding: 0 14px;
+    font-size: 10px;
+}
+
+.caption span {
+    font-size: 40px;
+}
+
+.log {
+    width: 90%;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 10px;
+}
+
+#Teacher {
+    display: none;
+}
+
+.logincontainer {
+    margin-top: 30px;
+}
+
+@media screen and (max-width :900px) {
+    .col {
+        flex: 100%;
+    }
+}
+
+/* page */
+.home {
+    position: relative;
+    background-color: rgb(238, 233, 233);
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.home h1 {
+    color: rgb(14, 12, 8);
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+}
+
+.navbar {
+    padding: 10px;
+    opacity: 0.9;
+}
