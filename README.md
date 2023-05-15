@@ -30,3 +30,6 @@ Make sure to download the specified node_modules and bootstrap elements before e
 Here is a static representation of my project on netlify hosting site :
 <a href="https://project2-blogs-market.netlify.app/">Blogs-Market</a>
 
+## Project 3 - Attendance Recorder
+
+This is a CRUD Attendance recorder in php with DB backed login and the user (might be a teacher or student) can take and see attendance.
